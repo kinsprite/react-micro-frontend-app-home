@@ -1,4 +1,8 @@
 import React from 'react';
+import {
+  Link,
+} from 'react-router-dom';
+
 import logo from './logo.svg';
 import styles from './HomeApp.module.css';
 
@@ -18,6 +22,17 @@ function HomeApp(): JSX.Element {
         >
           Learn React
         </a>
+        <ul>
+          <li>
+            <Link to="/home">Home</Link>
+          </li>
+          <li>
+            <Link to="/app-example">App Example</Link>
+          </li>
+          <li>
+            <Link to="/app-example/sub">{'App Example\'s Sub'}</Link>
+          </li>
+        </ul>
       </header>
     </div>
   );

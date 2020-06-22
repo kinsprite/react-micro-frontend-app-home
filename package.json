@@ -1,6 +1,6 @@
 {
   "name": "react-micro-frontend-app-home",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "React micro frontend app-home",
   "main": "index.js",
   "module": "src/index.ts",

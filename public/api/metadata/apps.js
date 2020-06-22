@@ -11,13 +11,13 @@
         // '/rmf-app-home/658c5f91/app-home-a200b003.css',
         // '/rmf-app-home/658c5f91/app-home-b889c22.js'
       ],
-      routes: ['/app-home'],
+      routes: ['/home'],
       render: 'root',
     },
   ];
 
   var extra = {
-    defaultRoute: '/app-home',
+    defaultRoute: '/home',
   };
 
   if (callback) callback(apps, extra);
