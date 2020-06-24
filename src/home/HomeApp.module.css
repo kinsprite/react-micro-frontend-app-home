@@ -1,4 +1,8 @@
 
+:root {
+  --footerHeight: 4rem;
+}
+
 .App {
   background-color: bisque;
 }
@@ -21,7 +25,7 @@
 
 .AppHeader {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--footerHeight));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,8 +34,24 @@
   color: white;
 }
 
+.AppFooter {
+  background-color: #282c34;
+  min-height: var(--footerHeight);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .AppLink {
   color: #61dafb;
+}
+
+.FooterLink {
+  color: #61dafb;
+  margin: 0 1em;
 }
 
 @keyframes AppLogoSpin {

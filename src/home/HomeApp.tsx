@@ -14,26 +14,36 @@ function HomeApp(): JSX.Element {
         <p>
           <code>React Micro Frontend @ 2020</code>
         </p>
+        <ul>
+          <li>
+            <Link to="/home" className={styles.AppLink}>Home</Link>
+          </li>
+          <li>
+            <Link to="/app-example" className={styles.AppLink}>App Example</Link>
+          </li>
+          <li>
+            <Link to="/app-example/sub" className={styles.AppLink}>{'App Example\'s Sub'}</Link>
+          </li>
+        </ul>
+      </header>
+      <footer className={styles.AppFooter}>
         <a
-          className={styles.AppLink}
+          className={styles.FooterLink}
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
-        <ul>
-          <li>
-            <Link to="/home">Home</Link>
-          </li>
-          <li>
-            <Link to="/app-example">App Example</Link>
-          </li>
-          <li>
-            <Link to="/app-example/sub">{'App Example\'s Sub'}</Link>
-          </li>
-        </ul>
-      </header>
+        <a
+          className={styles.FooterLink}
+          href="https://qinzhiqiang.cn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn Micro Frontend
+        </a>
+      </footer>
     </div>
   );
 }
