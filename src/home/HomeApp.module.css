@@ -3,6 +3,11 @@
   background-color: bisque;
 }
 
+.AppLogoCont {
+  display: flex;
+  flex-direction: row;
+}
+
 .AppLogo {
   height: 40vmin;
   pointer-events: none;
@@ -31,9 +36,12 @@
 
 @keyframes AppLogoSpin {
   from {
-    transform: rotate(0deg);
+    transform: scale(0.25) rotate(0deg) translateX(-10em);
+  }
+  50% {
+    transform: scale(0.8) rotate(180deg) translateX(-5em);
   }
   to {
-    transform: rotate(360deg);
+    transform: scale(0.25) rotate(360deg) translateX(-10em)
   }
 }

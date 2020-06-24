@@ -12,7 +12,7 @@ function HomeApp(): JSX.Element {
       <header className={styles.AppHeader}>
         <img src={logo} className={styles.AppLogo} alt="logo" />
         <p>
-          <code>Hello, React Micro Frontend @ 2020</code>
+          <code>React Micro Frontend @ 2020</code>
         </p>
         <a
           className={styles.AppLink}
