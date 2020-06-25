@@ -24,6 +24,9 @@ function HomeApp(): JSX.Element {
           <li>
             <Link to="/app-example/sub" className={styles.AppLink}>{'App Example\'s Sub'}</Link>
           </li>
+          <li>
+            <Link to="/sub-at-root" className={styles.AppLink}>Sub at Root</Link>
+          </li>
         </ul>
       </header>
       <footer className={styles.AppFooter}>

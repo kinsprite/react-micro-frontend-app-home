@@ -4,5 +4,7 @@ import { registerApp } from 'react-micro-frontend-framework';
 import HomeApp from './home';
 
 registerApp('app-home', {
-  component: HomeApp,
+  components: {
+    default: HomeApp,
+  },
 });
