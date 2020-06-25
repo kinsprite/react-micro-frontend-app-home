@@ -12,7 +12,7 @@ function HomeApp(): JSX.Element {
       <header className={styles.AppHeader}>
         <img src={logo} className={styles.AppLogo} alt="logo" />
         <p>
-          <code>React Micro Frontend @ 2020</code>
+          <code>React Micro Frontends @ 2020</code>
         </p>
         <ul>
           <li>
@@ -41,7 +41,7 @@ function HomeApp(): JSX.Element {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Micro Frontend
+          Learn Micro Frontends
         </a>
       </footer>
     </div>
