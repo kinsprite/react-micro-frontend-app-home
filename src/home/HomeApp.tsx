@@ -3,6 +3,8 @@ import {
   Link,
 } from 'react-router-dom';
 
+import LoginAsTester from './LoginAsTester';
+
 import logo from './logo.svg';
 import styles from './HomeApp.module.css';
 
@@ -10,6 +12,7 @@ function HomeApp(): JSX.Element {
   return (
     <div className={styles.App}>
       <header className={styles.AppHeader}>
+        <LoginAsTester />
         <img src={logo} className={styles.AppLogo} alt="logo" />
         <p>
           <code>React Micro Frontends @ 2020</code>

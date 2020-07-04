@@ -24,6 +24,7 @@
 }
 
 .AppHeader {
+  position: relative;
   background-color: #282c34;
   min-height: calc(100vh - var(--footerHeight));
   display: flex;
