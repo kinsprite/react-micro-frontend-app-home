@@ -46,6 +46,10 @@
   color: white;
 }
 
+.AppCenterTitle {
+  color: #66CDAA;
+}
+
 .AppLink {
   color: #61dafb;
 }
@@ -58,12 +62,9 @@
 
 @keyframes AppLogoSpin {
   from {
-    transform: scale(0.25) rotate(0deg) translateX(-10em);
-  }
-  50% {
-    transform: scale(0.8) rotate(180deg) translateX(-5em);
+    transform: rotate(0deg);
   }
   to {
-    transform: scale(0.25) rotate(360deg) translateX(-10em)
+    transform: rotate(360deg)
   }
 }

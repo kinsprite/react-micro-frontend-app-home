@@ -14,7 +14,7 @@ function HomeApp(): JSX.Element {
       <header className={styles.AppHeader}>
         <LoginAsTester />
         <img src={logo} className={styles.AppLogo} alt="logo" />
-        <p>
+        <p className={styles.AppCenterTitle}>
           <code>React Micro Frontends @ 2020</code>
         </p>
         <ul>
