@@ -8,7 +8,7 @@ function LoginAsTester(): JSX.Element {
   const [isTester, setIsTester] = useState(false);
 
   useEffect(() => {
-    fetch('/api/user/is-tester').then((response) => {
+    fetch('/api/user/is-tester', { credentials: 'same-origin' }).then((response) => {
       SetLoading(false);
 
       if (response.ok) {
