@@ -67,3 +67,8 @@
     transform: scale(0.25) rotate(360deg) translateX(-10em)
   }
 }
+
+.TesterMessage {
+  color: brown;
+  margin: 0;
+}

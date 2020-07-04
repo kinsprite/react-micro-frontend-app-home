@@ -16,7 +16,9 @@
     "renders": [
       {"renderId": "root", "routePath": "/home", "componentKey": "default"}
     ],
-    "extra": {}
+    "extra": {
+      "userGroup": "tester"
+    }
   },
   "scripts": {
     "start": "node scripts/start.js",

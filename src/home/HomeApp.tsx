@@ -17,6 +17,9 @@ function HomeApp(): JSX.Element {
         <p>
           <code>React Micro Frontends @ 2020</code>
         </p>
+        <p className={styles.TesterMessage}>
+          <code>You will see the versions for testers, and now the home is one of them.</code>
+        </p>
         <ul>
           <li>
             <Link to="/home" className={styles.AppLink}>Home</Link>
